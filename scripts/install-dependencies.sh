@@ -1,4 +1,15 @@
 #!/bin/bash
+# @file install-dependencies.sh
+# @project BashScripts
+#
+# @author Andrés Ferreiro González (andres.ferreiro.glez@gmail.com)
+# @company --
+#
+# Created: Friday, 28th September 2018 5:53:21 pm
+# Last Modified: Friday, 28th September 2018 6:12:24 pm
+# Modified By: Andrés Ferreiro González (andres.ferreiro.glez@gmail.com)
+#
+# Copyright (c) 2018 Andrés Ferreiro González
 
 packages=("sqlite3" "libsqlite3-dev" "libsqlite3-0")
 for package in ${packages[@]};
